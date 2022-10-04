@@ -14,12 +14,12 @@ app.get("/", function(req, res){
     resText += "I declare that this test is in accordance with Seneca Academic Policy. No part of this test has been copied manually or electronically from any other source. <br>";
     resText += "Name: <mark>Humaira Shaikh</mark> <br>";
     resText += "Student Number: <mark>139877203</mark> <br>";
-    resText +=  "<a href = './test1.html'> <u>Go to Test1</u></a> "; 
+    resText +=  "<a href = './test1'> Go to Test1. </a> "; 
     res.send(resText);
 });
 
 app.get("/about", function (req, res){
-    resText += "<a href = './home.html'> <u>Go Home</u></a>";
+    resText += "<a href = './home.html'> Go Home</a>";
     res.send(resText);
 }); 
 
